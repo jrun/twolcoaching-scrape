@@ -1,6 +1,11 @@
-$:.unshift File.exapnd_path(File.dirname(__FILE__))
+$:.unshift File.expand_path(File.dirname(__FILE__))
 
 require 'rubygems'
+require 'highline'
 require 'mechanize'
+require 'fastercsv'
 
+require 'twolcoaching/scrape/entry'
 require 'twolcoaching/scrape/table_view'
+require 'twolcoaching/scrape/paging'
+require 'twolcoaching/scrape/session'
