@@ -5,6 +5,8 @@ require 'highline'
 require 'mechanize'
 require 'fastercsv'
 
+HIGHLINE = HighLine.new
+
 require 'twolcoaching/scrape/entry'
 require 'twolcoaching/scrape/table_view'
 require 'twolcoaching/scrape/paging'
